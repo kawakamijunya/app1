@@ -1,5 +1,5 @@
 <body>
-    
+
  <table>
     <td><strong>Title:</strong></td>
     <td><%= @book.title %></td>
@@ -10,11 +10,11 @@
     <td><%= @book.body %></td>
  </table>
 
- 
-   <%= link_to "Edit" %>|<%= link_to "Back" %>
- 
- 
 </body>
+   <%= link_to "Edit",edit_book_path(@book.id) %>|<%= link_to "Back",books_path %>
+
+
+
 
 
 

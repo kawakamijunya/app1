@@ -1,10 +1,20 @@
-<h2>本のタイトル:</h2>
+<body>
+    
+ <table>
+    <td><strong>Title:</strong></td>
+    <td><%= @book.title %></td>
+ </table>
 
-<p><%= @book.title %></p>
+ <table>
+    <td><strong>Body:</strong></td>
+    <td><%= @book.body %></td>
+ </table>
 
-<h2>感想:</h2>
-
-<p><%= @book.body %></p>
+ 
+   <%= link_to "Edit" %>|<%= link_to "Back" %>
+ 
+ 
+</body>
 
 
 
